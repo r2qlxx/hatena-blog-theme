@@ -1,31 +1,32 @@
-// Variables
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 // Font
-$font-family-base: 'Helvetica Neue', 'Helvetica', 'Arial', 'Hiragino Kaku Gothic Pro', 'Meiryo', 'MS PGothic';
-$font-family-monospace: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+$font-family-base: "Inter", sans-serif;
+$font-family-monospace: "Consolas", "Courier New", monospace;
 
 // Background color
-$background: #fff;
-$bg-light: #f5f5f5;
+$bg: #edf2f7;
+$bg-container: #fff;
+$bg-code: #1a2638;
 
 // text color
-$text: #454545;
-$text-light: #999;
-$text-header: #333;
+$text: #171717;
+$text-code: #fff;
 
 // link
-$link: #1487bd;
-$hover: darken($link, 10%);
+$link: #3498db;
+$hover: darken($link, 30%);
 
 // border
-$border: #ddd;
+$border: $text;
 
 // button
 $btn: #fff;
 $btn-hover: #f5f5f5;
 
 // Media Queries
-$mq-xs: "(max-width: 480px)";
-$mq-sm: "(min-width: 768px)";
-$mq-md: "(min-width: 992px)";
-$mq-lg: "(min-width: 1200px)";
+$mq-sm: "(min-width: 640px)";
+$mq-md: "(min-width: 768px)";
+$mq-lg: "(min-width: 1024px)";
+$mq-xl: "(min-width: 1280px)";
+$mq-2xl: "(min-width: 1536px)";
